@@ -1,0 +1,59 @@
+ body{background-color:  #ebf3f1;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+   height: 500px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .ma{
+  background:cyan;
+  display:flex;
+  justify-content:space-evenly;
+  }
+.ma a{
+text-decoration:none;
+  margin:10px 120px;
+  font-size:30px;
+  color:black;
+  font-style:italic;
+  }
+.ma a:hover{
+ transform:scale(1.5);
+  color:blue;
+  border-bottom:10px double red;
+}
+
+ .bb img{
+    width: 200px;
+    height: 200px
+    border-style: solid ;
+  transition:all 3s;
+}
+.ab img{
+    width: 200px;
+    height: 200px;
+    border-style: solid ;
+  transition:all 3s;
+}
+@keyframes txt{
+    0%{color:red;}
+    20%{color:yellow;}
+    40%{color:green;}
+    60%{color:orange;}
+    80%{color:blue;}
+    100%{color:red;}
+}
+.t1{
+    text-shadow:20px 10px 0.1px blue;
+    animation: txt 3s infinite;
+    text-align: center;
+    font-size: 100px;
+    h1{
+     
+     text-align:center ;
+}
+p {
+     font-size:20px;
+  color:blue;  
+}
